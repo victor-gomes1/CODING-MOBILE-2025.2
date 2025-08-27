@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consultor de Preços</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Consultor de Preços de Automóveis 🚗 </h1>
+                <p>↓ Selecione o modelo do carro que deseja consultar ↓</p>
+    </header>
+
+    <main>
+        <div class="search-container">
+            <select id="brandSelect">
+                <option value="">Selecione a Marca</option>
+            </select>
+            <select id="modelSelect" disabled>
+                <option value="">Selecione o Modelo</option>
+            </select>
+            <select id="yearSelect" disabled>
+                <option value="">Selecione o Ano</option>
+            </select>
+            <button id="searchButton" disabled>Buscar Preço</button>
+        </div>
+
+        <div id="resultsContainer">
+            </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
